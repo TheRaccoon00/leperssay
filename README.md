@@ -30,4 +30,4 @@ leperssay "C'EST NON"
 
 ## Any reason ?
 
-<img src="https://github.com/TheRaccoon00/leperssay/blob/master/lepers.gif" width="480">
+<img src="https://github.com/TheRaccoon00/leperssay/blob/main/lepers.gif" width="480">
