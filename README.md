@@ -25,9 +25,9 @@ sudo make install
 ## Usage
 
 ```bash
-lepersay "C'EST NON"
+leperssay "C'EST NON"
 ```
 
 ## Any reason ?
 
-![me](https://github.com/TheRaccoon00/leperssay/blob/master/lepers.gif)
+<img src="https://github.com/TheRaccoon00/leperssay/blob/master/lepers.gif" width="480">
