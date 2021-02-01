@@ -127,7 +127,7 @@ void displayFrame(char frame[][Y], int x, int y){
 void displayMessage(char* message, int x, int y){
   int j;
   mvprintw(1,25+x,"  ");
-  for(j=0;j<strlen(message);j++){
+  for(j=0;j<strlen(message)+2;j++){
     char c[2];
     strncpy(c,"-",2);
     mvprintw(1,27+x+j,c);
@@ -136,7 +136,7 @@ void displayMessage(char* message, int x, int y){
   mvprintw(2,27+x,message);
   mvprintw(2,27+x+strlen(message)," ! >");
   mvprintw(3,25+x,"/ ");
-  for(j=0;j<strlen(message);j++){
+  for(j=0;j<strlen(message)+2;j++){
     char c[2];
     strncpy(c,"-",2);
     mvprintw(3,27+x+j,c);
